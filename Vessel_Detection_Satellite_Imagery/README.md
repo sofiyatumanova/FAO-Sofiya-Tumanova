@@ -68,13 +68,13 @@ results.print()
 # Optionally save predictions to disk
 results.save()
 
-Training
+##Training
 
 Use the Vessel Object Detection.v9i.yolov8-obb dataset and data.yaml to train or fine-tune the model.
 
 Training scripts are located in the code/ folder.
 
-Example of data.yaml format (for reference):
+##Example of data.yaml format (for reference):
 
 train: train/images
 val: valid/images
