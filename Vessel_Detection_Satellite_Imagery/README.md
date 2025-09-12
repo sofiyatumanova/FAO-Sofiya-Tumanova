@@ -45,4 +45,27 @@ The repository contains:
 
 **Download link:** [(https://www.dropbox.com/scl/fi/gdfxkcltw198e5zc2u181/test-metrics-yolov8m-obb.zip?rlkey=827eicr2zaizlr50t1990cok4&st=5v1sky2m&dl=0)]
 
+---
+
+## Usage
+
+### Using with Ultralytics YOLOv8
+
+You can use this model like any other YOLOv8 model from Ultralytics. Example:
+
+```python
+from ultralytics import YOLO
+
+# Load your fine-tuned model
+model = YOLO("path_to_best.pt")
+
+# Run prediction on an image
+results = model.predict("example_image.jpg", imgsz=512, conf=0.25)
+
+# Print results
+results.print()
+
+# Optionally save predictions to disk
+results.save()
+
 
