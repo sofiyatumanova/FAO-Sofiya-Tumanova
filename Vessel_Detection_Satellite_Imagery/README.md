@@ -24,7 +24,7 @@ The repository contains:
 **File:** `best.pt`  
 **Description:** Trained YOLOv8m-OBB model for vessel detection. Use this file to run inference or fine-tune the model.
 
-**Download link:** [Insert Dropbox link here]
+**Download link:** [(https://www.dropbox.com/scl/fi/lh385t61iee52r4d3hyo0/best.pt?rlkey=7gsyw8qo3dpkxc2uueyf8ba6e&st=z9fufaa6&dl=0)]
 
 ---
 
@@ -32,7 +32,7 @@ The repository contains:
 **File:** `Vessel Object Detection.v9i.yolov8-obb`  
 **Description:** RoboFlow export containing the annotated dataset split into **train, validation, and test sets**. Includes all labeled vessel objects needed for training.
 
-**Download link:** [Insert Dropbox link here]
+**Download link:** [(https://www.dropbox.com/scl/fi/x5zsrg8xccvwrom59ap2p/Vessel-Object-Detection.v9i.yolov8-obb.zip?rlkey=4erqlk7aege8cmi5okzzskm53&st=x799v5d6&dl=0)]
 
 ---
 
@@ -43,6 +43,6 @@ The repository contains:
 - Batch prediction images  
 - Performance graphs  
 
-**Download link:** [Insert Dropbox link here]
+**Download link:** [(https://www.dropbox.com/scl/fi/gdfxkcltw198e5zc2u181/test-metrics-yolov8m-obb.zip?rlkey=827eicr2zaizlr50t1990cok4&st=5v1sky2m&dl=0)]
 
 
