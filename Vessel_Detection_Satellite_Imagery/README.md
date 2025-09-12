@@ -68,4 +68,37 @@ results.print()
 # Optionally save predictions to disk
 results.save()
 
+Training
 
+Use the Vessel Object Detection.v9i.yolov8-obb dataset and data.yaml to train or fine-tune the model.
+
+Training scripts are located in the code/ folder.
+
+Example of data.yaml format (for reference):
+
+train: train/images
+val: valid/images
+test: test/images
+
+names: 
+  0: catamaran
+  1: fishing-vessels
+  2: other vessels
+  3: private_yachts
+  4: recreational boat
+
+Notes
+
+Ensure all large files are downloaded from Dropbox links before running inference or training.
+
+GitHub folders (model/, results/) can contain small preview files or placeholders.
+
+Test metrics folder contains automatically generated images from model.predict (Ultralytics standard behavior).
+
+Citation
+
+If using this model or dataset in your research, please cite:
+Sofiya Tumanova, 2025
+
+For the base YOLOv8 model, please also acknowledge Ultralytics:
+Ultralytics YOLOv8, Glenn Jocher et al., https://github.com/ultralytics/ultralytics
