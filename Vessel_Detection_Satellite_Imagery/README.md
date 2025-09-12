@@ -77,6 +77,7 @@ Training scripts are located in the code/ folder.
 
 ##Example of data.yaml format (for reference):
 
+```yaml
 train: train/images
 val: valid/images
 test: test/images
@@ -87,6 +88,7 @@ names:
   2: other vessels
   3: private_yachts
   4: recreational boat
+```
 
 Notes
 
