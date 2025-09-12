@@ -1,1 +1,1 @@
-Please refer to the README file to download the best model weights file.
+Please refer to the README file to download the results file.
