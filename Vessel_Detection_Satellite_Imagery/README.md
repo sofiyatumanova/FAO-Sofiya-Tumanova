@@ -1,7 +1,7 @@
 # Caribbean Vessel Detection - YOLOv8m-OBB Custom Model
 
 ## Project Overview
-This repository contains resources for detecting vessels in the Caribbean region using a custom **YOLOv8m-OBB model**. The goal is to support FAO initiatives such as vessel monitoring, infrastructure mapping, and maritime research.  
+This repository contains resources for detecting vessels in the Caribbean region using a custom **YOLOv8m-OBB model**. The goal is to support FAO initiatives such as vessel monitoring, national vessel registry updates, and maritime research.  
 
 The repository contains:
 
