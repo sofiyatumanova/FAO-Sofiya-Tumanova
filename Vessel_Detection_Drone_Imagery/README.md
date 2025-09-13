@@ -77,3 +77,18 @@ names:
   3: private-yachts
   4: recreational-boat
 ```
+---
+## Notes
+Ensure all large files are downloaded from Dropbox links before running inference or training.
+
+GitHub folders (best_model_weights/, annotations/) contain placeholder instructions with external links.
+
+---
+## Citation 
+If using this model or dataset in your research, please cite:
+
+Sofiya Tumanova, 2025
+
+For the base YOLOv8 model, please also acknowledge Ultralytics:
+Ultralytics YOLOv8
+[https://github.com/ultralytics/ultralytics], Glenn Jocher et al.
