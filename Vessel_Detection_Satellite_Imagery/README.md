@@ -60,7 +60,7 @@ from ultralytics import YOLO
 model = YOLO("path_to_best.pt")
 
 # Run prediction on an image
-results = model.predict("example_image.jpg", imgsz=512, conf=0.25)
+results = model.predict("example_image.jpg", imgsz=640, conf=0.25, task= "obb")
 
 # Print results
 results.print()
