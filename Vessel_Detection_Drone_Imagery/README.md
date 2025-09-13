@@ -61,10 +61,10 @@ results.save()
 ```
 
 ## Training 
-Use the **File:**'CLEAN Vessel from Drone Imagery.v3i.yolov8' and **File:**'data.yaml' to train or fine-tune the model.
+Use the **File:** `CLEAN Vessel from Drone Imagery.v3i.yolov8` and **File:** `data.yaml` to train or fine-tune the model.
 Training scripts are located in the code/ folder.
 
-## Example data.yaml format (for reference):
+# Example data.yaml format (for reference):
 ```yaml
 train: train/images
 val: valid/images
