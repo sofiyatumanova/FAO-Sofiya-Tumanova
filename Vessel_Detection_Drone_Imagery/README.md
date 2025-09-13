@@ -58,3 +58,22 @@ results.print()
 
 # Save predictions to disk
 results.save()
+```
+
+## Training 
+Use the **File:**'CLEAN Vessel from Drone Imagery.v3i.yolov8' and **File:**'data.yaml' to train or fine-tune the model.
+Training scripts are located in the code/ folder.
+
+## Example data.yaml format (for reference):
+```yaml
+train: train/images
+val: valid/images
+test: test/images
+
+names: 
+  0: catamaran
+  1: fishing-vessels
+  2: other-vessels
+  3: private-yachts
+  4: recreational-boat
+```
