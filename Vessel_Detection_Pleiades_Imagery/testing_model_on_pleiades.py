@@ -91,6 +91,7 @@ def uint16_to_uint8(img16, pmin=1, pmax=99.5):
 img_uint8 = uint16_to_uint8(img16)
 print(f"Converted to uint8: {img_uint8.shape}")
 
+#----------------------------
 # Upscale Pleiades to match training GSD
 scale_factor = pleiades_res_mpp_x / TRAINING_RES_MPP  # 0.5 / 0.3 ≈ 1.667
 
@@ -100,6 +101,7 @@ new_height = int(img_uint8.shape[0] * scale_factor)
 img_rescaled = cv2.resize(img_uint8, (new_width, new_height), interpolation=cv2.INTER_LINEAR)
 print(f"Rescaled image shape: {img_rescaled.shape}")
 
+#---------------------------
 tiles = []
 coords = []      # keep track of tile offsets
 tile_offsets_dict = {}  # save offsets to a file
@@ -153,6 +155,7 @@ results = model.predict(
     name="predictions"
 )
 
+#------------------------------
 import os
 import json
 import numpy as np
@@ -263,6 +266,7 @@ gdf.to_file(OUTPUT_GEOJSON, driver="GeoJSON")
 
 print(f"Saved {len(all_features)} detections to {OUTPUT_GEOJSON}")
 
+#-----------------------------
 import shutil
 from google.colab import files
 import os
@@ -279,6 +283,9 @@ shutil.make_archive(base_name=ZIP_PATH.replace(".zip", ""), format='zip', root_d
 # Download
 files.download(ZIP_PATH)
 
+#----------------------------
+# Visualizing Side By Side Images
+#----------------------------
 import cv2
 import matplotlib.pyplot as plt
 
