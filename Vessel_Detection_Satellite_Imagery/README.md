@@ -50,10 +50,7 @@ The repository contains:
 
 Below are sample images from the **results/** folder:
 
-![T_and_T_satellite_image_10370](results/T_and_T_satellite_image_10370_png.rf.ea38b9e5f9c1b7c827b5e07587c636cb.jpg)
 ![Saint_Kitts_satellite_image_13](results/Saint_Kitts_satellite_image_13_png.rf.58942ceba774da31ad0fd3bbfe06b8d0.jpg)
-![satellite_image_22](results/satellite_image_22_png.rf.2c31e16aacd27f488bda20362c748b5f.jpg)
-![satellite_image_3010](results/satellite_image_3010_png.rf.2e9cc5fce07534255a23f2ba7e352798.jpg)
 ![satellite_image_4985](results/satellite_image_4985_png.rf.07021df794e523212be7def0a32d50bf.jpg)
 ![satellite_image_16200](results/satellite_image_16200_png.rf.7f14d00e6c5877789e82b83522376342.jpg)
 ![satellite_image_17780](results/satellite_image_17780_png.rf.05b6f61c05fde0dd370fefc9491a5ac1.jpg)
