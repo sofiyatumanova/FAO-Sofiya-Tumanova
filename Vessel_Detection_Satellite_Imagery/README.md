@@ -46,6 +46,26 @@ The repository contains:
 **Download link:** [(https://www.dropbox.com/scl/fi/gdfxkcltw198e5zc2u181/test-metrics-yolov8m-obb.zip?rlkey=827eicr2zaizlr50t1990cok4&st=5v1sky2m&dl=0)]
 
 ---
+## Results Gallery
+
+Below are sample images from the **results/** folder:
+
+![T_and_T_satellite_image_10370](results/T_and_T_satellite_image_10370_png.rf.ea38b9e5f9c1b7c827b5e07587c636cb.jpg)
+![Saint_Kitts_satellite_image_13](results/Saint_Kitts_satellite_image_13_png.rf.58942ceba774da31ad0fd3bbfe06b8d0.jpg)
+![satellite_image_22](results/satellite_image_22_png.rf.2c31e16aacd27f488bda20362c748b5f.jpg)
+![satellite_image_3010](results/satellite_image_3010_png.rf.2e9cc5fce07534255a23f2ba7e352798.jpg)
+![satellite_image_4985](results/satellite_image_4985_png.rf.07021df794e523212be7def0a32d50bf.jpg)
+![satellite_image_16200](results/satellite_image_16200_png.rf.7f14d00e6c5877789e82b83522376342.jpg)
+![satellite_image_17780](results/satellite_image_17780_png.rf.05b6f61c05fde0dd370fefc9491a5ac1.jpg)
+![satellite_image_18240](results/satellite_image_18240_png.rf.c397cc7b5715d3aa91a0ca7e4171dd4c.jpg)
+![satellite_image_18760](results/satellite_image_18760_png.rf.a797f46d1a170b2eee1b63c270e3eab6.jpg)
+![satellite_image_21620](results/satellite_image_21620_png.rf.e541bf0ba2c72731ec679cd806658d52.jpg)
+![St_Lucia_sat_image_16100](results/St_Lucia_sat_image_16100_png.rf.8c0d495f5df57a33817bfbb37e1270bb.jpg)
+![St_Lucia_sat_image_22800](results/St_Lucia_sat_image_22800_png.rf.4c41764e82dbae93cff12b09d2f33622.jpg)
+![St_Lucia_sat_image_37150](results/St_Lucia_sat_image_37150-Copy_png.rf.e3396491bf89f0acb2644036424e11ea.jpg)
+![T_and_T_satellite_image_8710](results/T_and_T_satellite_image_8710_png.rf.483dbd82e58b8529ba39d91ee2499d87.jpg)
+
+---
 
 ## Usage
 
