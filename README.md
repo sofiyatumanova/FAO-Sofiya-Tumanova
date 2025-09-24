@@ -1,6 +1,6 @@
 # FAO-Sofiya-Tumanova
 
-This repository contains code, models, and resources developed during work with the **Food and Agriculture Organization of the United Nations (FAO)** to support vessel detection using drone and satellite imagery. The goal of this work is to improve monitoring of artisanal and small-scale fisheries by applying computer vision techniques to high-resolution earth observation data.
+This repository contains code, models, and resources developed during work with the **Food and Agriculture Organization of the United Nations (FAO)** to support vessel detection using drone and satellite imagery. The goal of this work is to improve monitoring of small artisanal fishing vessels by applying computer vision techniques to high-resolution earth observation data.
 
 ---
 
@@ -9,7 +9,7 @@ This repository contains code, models, and resources developed during work with 
 The repository is organized into three main folders:
 
 - **`Vessel_Detection_Drone_Imagery/`**
-  - Contains code for detecting vessels from **Drone-based imagery**.
+  - Contains code for detecting vessels from **Drone-based orthomosaic imagery**.
   - Includes links to Caribbean vessel annotations and pretrained YOLOv8 model weights (`best.pt`) that can be used for training, fine-tuning, or testing.
 
 - **`Vessel_Detection_Pleiades_Imagery/`**
