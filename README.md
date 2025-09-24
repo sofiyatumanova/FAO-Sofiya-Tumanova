@@ -10,14 +10,14 @@ The repository is organized into three main folders:
 
 - **`Vessel_Detection_Drone_Imagery/`**
   - Contains code for detecting vessels from **drone-based imagery**.
-  - Includes links to Caribbean vessel annotations and pretrained YOLOv5 model weights (`best.pt`) that can be used for training, fine-tuning, or testing.
+  - Includes links to Caribbean vessel annotations and pretrained YOLOv8 model weights (`best.pt`) that can be used for training, fine-tuning, or testing.
 
 - **`Vessel_Detection_Pleiades_Imagery/`**
   - Contains code for detecting vessels from **Pleiades very high-resolution satellite imagery**.
-  - Includes links to vessel annotations and `best.pt` weights.
 
 - **`Vessel_Detection_Satellite_Imagery/`**
   - Contains code for processing **Google Maps Very High Resolution Imagery** for vessel detection and related applications.
+  - Includes links to Caribbean vessel annotations and pretrained YOLOv8m-obb model weights (`best.pt`) that can be used for training, fine-tuning, or testing.
 
 Each sub-folder contains a `code/` directory with Python scripts for model training, inference, and data processing.
 
