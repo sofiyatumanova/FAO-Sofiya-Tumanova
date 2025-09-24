@@ -16,8 +16,8 @@ The repository is organized into three main folders:
   - Contains code for detecting vessels from **Pleiades very high-resolution satellite imagery**.
   - Includes links to vessel annotations and `best.pt` weights.
 
-- **`Vessel_Detection_Sentinel2_Imagery/`**
-  - Contains code for processing **Sentinel-2 multispectral imagery** for vessel detection and related applications.
+- **`Vessel_Detection_Satellite_Imagery/`**
+  - Contains code for processing **Google Maps Very High Resolution Imagery** for vessel detection and related applications.
 
 Each sub-folder contains a `code/` directory with Python scripts for model training, inference, and data processing.
 
@@ -25,9 +25,9 @@ Each sub-folder contains a `code/` directory with Python scripts for model train
 
 ## Features
 
-- Vessel detection from **drone, Pleiades, and Sentinel-2 imagery**.
+- Vessel detection from **drone, Pleiades, and Google Maps imagery**.
 - Annotated datasets from the **Caribbean region** (links provided in relevant folders).
-- Pretrained YOLOv5 model weights (`best.pt`) available for download to:
+- Pretrained YOLO model weights (`best.pt`) available for download to:
   - Train from scratch.
   - Fine-tune on new datasets.
   - Run inference and evaluate performance.
@@ -44,12 +44,12 @@ Each sub-folder contains a `code/` directory with Python scripts for model train
    ```
 2. Navigate to the desired folder:
 
-Vessel_Detection_Drone_Imagery
+**`Vessel_Detection_Drone_Imagery/`**
 
-Vessel_Detection_Pleiades_Imagery
+**`Vessel_Detection_Pleiades_Imagery/`**
 
-Vessel_Detection_Sentinel2_Imagery
+**`Vessel_Detection_Satellite_Imagery/`**
 
-3. Follow instructions in the respective code/ folder to run detection scripts.
+3. Follow instructions in the respective `code/` folder to run detection scripts.
 
-4. Download the annotations and pretrained model weights (best.pt) from the links provided inside each folder to train, fine-tune, or test the models.
+4. Download the **annotations** and **pretrained model weights** `(best.pt)` from the links provided inside each folder to train, fine-tune, or test the models.
