@@ -38,6 +38,16 @@ The repository is organized into folders for **code**, **model weights**, and **
 
 ---
 
+## Prediction Results Gallery
+
+Below are sample prediction images from the **prediction_results/** folder:
+
+![Prediction 1](prediction_results/download%20(5).png)
+![Prediction 2](prediction_results/download%20(6).png)
+
+---
+
+
 ## Usage
 
 ### Inference with Ultralytics YOLOv8
