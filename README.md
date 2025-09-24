@@ -53,3 +53,16 @@ Each sub-folder contains a `code/` directory with Python scripts for model train
 3. Follow instructions in the respective `code/` folder to run detection scripts.
 
 4. Download the **annotations** and **pretrained model weights** `(best.pt)` from the links provided inside each folder to train, fine-tune, or test the models.
+
+---
+## Requirements
+
+Python 3.8+
+PyTorch
+YOLO dependencies from Ultralytics
+GDAL, Rasterio, and other geospatial libraries (for preprocessing satellite data)
+
+---
+## Acknowledgements
+
+This repository was developed by **Sofiya Tumanova** in collaboration with the **FAO Technology and Operations Team (NFIFO)** as part of efforts to strengthen monitoring of small-scale fisheries and vessel activity using remote sensing and AI tools.
