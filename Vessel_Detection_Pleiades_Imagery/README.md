@@ -36,6 +36,21 @@ Below are sample outputs from the vessel detection model applied to **Pleiades s
 ![Result 4](RESULTS_Imagery/download%20(4).png)
 
 ---
+## Code Summary
+The Colab notebook provides an **end-to-end detection pipeline**:  
+- Installing dependencies (`ultralytics`, `opencv`, `rasterio`).  
+- Loading and converting **16-bit Pleiades imagery** to 8-bit RGB for model input.  
+- Rescaling imagery from 0.5 m/pixel to match the training resolution (0.3 m/pixel).  
+- **Tiling large images** into 640×640 patches with overlap to avoid edge losses.  
+- Running YOLOv8m-OBB vessel detection on all tiles.  
+- **Reprojecting predictions into georeferenced coordinates** and exporting as GeoJSON.  
+- Saving annotated tiles, bounding box labels, and detection results to Google Drive.  
+- Optionally zipping and downloading the results.  
+- Comparing **Pleiades tiles (0.5 m/pixel)** with **Google Maps tiles (0.3 m/pixel)** side by side for quality assessment.  
+
+This workflow ensures geospatial accuracy and allows large-scale vessel detection from satellite imagery.  
+
+---
 ## Notes
 
 Ensure you download the `best.pt` model weights before running any code.
