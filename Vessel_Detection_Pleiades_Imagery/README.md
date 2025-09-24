@@ -4,7 +4,7 @@ Below are sample outputs from the vessel detection model applied to **Pleiades s
 
 ---
 
-![Result 1](download%20(1).png)
-![Result 2](download%20(13).png)
-![Result 3](download%20(15).png)
-![Result 4](download%20(4).png)
+![Result 1](RESULTS_imagery/download%20(1).png)
+![Result 2](RESULTS_imagery/download%20(13).png)
+![Result 3](RESULTS_imagery/download%20(15).png)
+![Result 4](RESULTS_imagery/download%20(4).png)
