@@ -24,7 +24,7 @@ The repository contains:
 .
 
 ---
-# Pleiades Imagery – Detection Results
+## Pleiades Imagery – Detection Results
 
 Below are sample outputs from the vessel detection model applied to **Pleiades satellite imagery** at 0.5m/pixel resolution.
 
@@ -34,3 +34,22 @@ Below are sample outputs from the vessel detection model applied to **Pleiades s
 ![Result 2](RESULTS_Imagery/download%20(13).png)
 ![Result 3](RESULTS_Imagery/download%20(15).png)
 ![Result 4](RESULTS_Imagery/download%20(4).png)
+
+---
+## Notes
+
+Ensure you download the `best.pt` model weights before running any code.
+
+The code was developed specifically for detecting Caribbean vessels in Pleiades high-resolution imagery.
+
+Adjust the imgsz, conf, and file paths according to your local setup.
+
+---
+## Citation
+
+If using this model or dataset in your research, please cite:
+
+Sofiya Tumanova, 2025
+
+For the base YOLOv8 model, please also acknowledge Ultralytics:
+Ultralytics YOLOv8, Glenn Jocher et al., https://github.com/ultralytics/ultralytics
