@@ -21,7 +21,7 @@ The repository contains:
 - **README.md** → Documentation for the repository.
 - **RESULTS_Imagery/** → Contains side by side images showing the prediction results.
 
-> Before running any code, you must download the trained YOLOv8m-OBB model weights (`best.pt`) from the [Vessel_Detection_Satellite_Imagery README.md Dropbox link](https://www.dropbox.com/scl/fi/lh385t61iee52r4d3hyo0/best.pt?rlkey=7gsyw8qo3dpkxc2uueyf8ba6e&st=z9fufaa6&dl=0)
+> Before running any code, you must download the trained YOLOv8m-OBB model weights (`best.pt`) from the following link: [(https://www.dropbox.com/scl/fi/lh385t61iee52r4d3hyo0/best.pt?rlkey=7gsyw8qo3dpkxc2uueyf8ba6e&st=z9fufaa6&dl=0)]
 .
 
 ---
