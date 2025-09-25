@@ -18,7 +18,8 @@ The repository contains:
 - **code/** → Contains scripts for inference and model testing:
   - `testing_model_on_pleiades.py` → Python script to run vessel detection using the YOLOv8m-OBB model on Pleiades imagery.  
   - `Testing_model_on_Pleiades.ipynb` → Jupyter Notebook for interactive testing and visualization of results.  
-- **README.md** → Documentation for the repository.  
+- **README.md** → Documentation for the repository.
+- **RESULTS_Imagery/** → Contains side by side images showing the prediction results.
 
 > Before running any code, you must download the trained YOLOv8m-OBB model weights (`best.pt`) from the [Vessel_Detection_Satellite_Imagery README.md Dropbox link](https://www.dropbox.com/scl/fi/lh385t61iee52r4d3hyo0/best.pt?rlkey=7gsyw8qo3dpkxc2uueyf8ba6e&st=z9fufaa6&dl=0)
 .
