@@ -65,4 +65,4 @@ GDAL, Rasterio, and other geospatial libraries (for preprocessing satellite data
 ---
 ## Acknowledgements
 
-This repository was developed by **Sofiya Tumanova** in collaboration with the **FAO Technology and Operations Team (NFIFO)** as part of efforts to strengthen monitoring of small-scale fisheries and vessel activity using remote sensing and AI tools.
+This repository was developed by **Sofiya Tumanova** in collaboration with the **FAO Fisheries and Aquaculture Division (NFI)** as part of efforts to strengthen monitoring of small-scale fisheries and vessel activity using remote sensing, GIS, and AI tools.
